@@ -8,6 +8,7 @@ public class FindUniueCharFromAString {
 	public static void main(String[] args) {
 		String name = "surendiran";
 		char[] arrayChar = name.toCharArray();
+		System.out.println(arrayChar.length);
 		Map<Character, Integer> Uniqu = new HashMap<>();
 		for (int i = 0; i < arrayChar.length; i++) {
 			if (Uniqu.containsKey(arrayChar[i])) {
@@ -18,11 +19,10 @@ public class FindUniueCharFromAString {
 			}
 
 		}
-		for (int i = 0; i < Uniqu.size(); i++) {
-			if (Uniqu.get(arrayChar[i]) > 1) {
-				System.out.println("Duplicate char " + arrayChar[i]);
-			} else {
-				System.out.println("Uniqu char " + arrayChar[i]);
+		System.out.println(Uniqu.size());
+		for (int i = 0; i < arrayChar.length; i++) {
+			if (Uniqu.get(arrayChar[i]) == 1) {
+				System.out.println("Uniqu :" + arrayChar[i]);
 			}
 		}
 
