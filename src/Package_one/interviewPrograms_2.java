@@ -27,6 +27,7 @@ public class interviewPrograms_2 {
 		Arrays.sort(a,Collections.reverseOrder());
 		System.out.println(Arrays.toString(a));
 		ob.ArrayUnique();
+		
 	}
 	void ArrayUnique() {
 		int a[] = { 1, 3, 4, 1, 3, 2 };

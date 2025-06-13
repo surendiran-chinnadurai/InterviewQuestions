@@ -42,12 +42,8 @@ public class reverseString {
 		String[] name_array = name.split(" ");
 		for (int i = 0; i < name_array.length; i++) {
 			if (name_array[i].equalsIgnoreCase(substring)) {
-				StringBuilder sb = new StringBuilder();
-
-				for (int j = name_array[i].length() - 1; j >= 0; j--) {
-					sb.append(name_array[i].charAt(j));
-				}
-				System.out.print(sb + " ");
+				StringBuilder sb = new StringBuilder(name_array[i]);
+					sb.reverse();
 			} else {
 				System.out.print(name_array[i] + " ");
 			}
@@ -64,6 +60,7 @@ public class reverseString {
 			}
 		}
 		System.out.println(count);
+		
 
 	}
 
@@ -233,7 +230,7 @@ public class reverseString {
 		reverseString ob = new reverseString();
 		// ob.reversaString("java");
 		// ob.printUniquChar("surendiran");
-		// ob.uniquCharWithoutCollections("Madhukshara");
+		ob.uniquCharWithoutCollections("Madhukshara");
 		// ob.reversaSubString("i love my lovely family","lovely");
 		// ob.findingVowelsInString("surendiRan");
 		// System.out.println(ob.factorialOfGivenNumber(5));
@@ -247,7 +244,7 @@ public class reverseString {
 		// ob.fibonachiSeriosSum(2);
 		// ob.palindromeString("appa");
 		//ob.shortArray();
-		ob.assendingArrayLessSecondValue();
+		//ob.assendingArrayLessSecondValue();
 	}
 
 }

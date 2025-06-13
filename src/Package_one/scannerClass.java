@@ -17,6 +17,9 @@ public class scannerClass {
 		System.out.println(age);
 		System.out.println(grade);
 		System.out.println(address);
+		String name1="surendira";
+		
+		
 		
 	}
 

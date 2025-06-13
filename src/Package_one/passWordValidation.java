@@ -10,7 +10,7 @@ public class passWordValidation {
 
 	    public static void main(String[] args) {
 	        passWordValidation pw = new passWordValidation();
-	        boolean output = pw.isValidPassword("Sharsourwoeu253a@23");
+	        boolean output = pw.isValidPassword("shArsourwoeu253a@23");
 	        System.out.println(output); // true
 	    }
 	}
