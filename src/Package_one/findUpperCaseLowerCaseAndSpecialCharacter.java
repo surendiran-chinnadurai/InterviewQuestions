@@ -14,8 +14,18 @@ public class findUpperCaseLowerCaseAndSpecialCharacter {
 			}if(!Character.isLetterOrDigit(letter)) {
 				System.out.println(letter+" is specialchar");
 			}
+			
 		}
-
+		StringBuilder sb=new StringBuilder();
+		System.out.println(sb);
+			sb.append("surendiran");
+		System.out.println(sb);
+		sb.append(" c");
+		System.out.println(sb);
+		sb.replace(4, 10, "ashvitha");
+		System.out.println(sb);
+		sb.reverse();
+		System.out.println(sb);
 	}
 
 }

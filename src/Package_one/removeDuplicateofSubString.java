@@ -12,8 +12,9 @@ public class removeDuplicateofSubString {
 		String[] split=name.split(" ");
 		//List<String> list_str=Arrays.asList(split);
 		Set<String> s1=new HashSet<>(Arrays.asList(split));
-		Object[] ob=s1.toArray();
-		System.out.println(Arrays.toString(ob));
+		System.out.println(s1);
+//		Object[] ob=s1.toArray();
+//		System.out.println(Arrays.toString(ob));
 		String str = "Jav%a4567&$%";
 		System.out.println(str.replaceAll("[a-zA-Z0-9]",""));
 

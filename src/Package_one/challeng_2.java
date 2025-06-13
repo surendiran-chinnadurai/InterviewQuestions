@@ -13,6 +13,7 @@ public class challeng_2 {
 		} else {
 			System.out.println("fail");
 		}
+		// scan.next().charAt(0);
 
 	}
 

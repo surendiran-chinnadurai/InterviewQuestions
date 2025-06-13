@@ -25,10 +25,11 @@ public class AllMethodesOfString {
 		System.out.println(name.toUpperCase());
 		System.out.println(name1.split("a")); // split into string array
 		System.out.println(name1.trim()); // removes white space in the front of string
-		System.out.println(name1.join(" - ", "i", "Know", "java", "Selenium")); // join all substring with delimeter " -
-																				// "
+		System.out.println(name1.join("", "i", "Know", "java", "Selenium")); // join all substring with delimeter " -																// "
 		System.out.println(name1.toCharArray()); // convert the String into Char array
 		System.out.println(name1.repeat(3)); // print the string 3 times.
+		System.out.println(name1.concat("Madhu"));
+		System.out.println(name1+"Madhu");
 
 	}
 
